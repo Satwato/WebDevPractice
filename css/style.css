@@ -13,15 +13,11 @@ a{
     color: rgb(56, 45, 45);
     text-decoration: none;
 }
-.cont{
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding:0 20px;
-}
+
 #navbar{
     display:flex;
     position: sticky;
+    position: -webkit-sticky;
     top:0;
     background: black;
     color: #fff;
@@ -63,15 +59,24 @@ a{
 
 #banner{
     background: url('../img/b.jpg') no-repeat center center/cover;
-    height:400px;
-
+    height:100vh;
 }
 
 #banner .cont{
+    display: flex;
+    flex-direction: column;
     color: #fff;
     text-align: center;
-    padding-top:120px ;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top:0 2rem ;
     text-shadow: 2px 2px 9px rgb(49, 49, 49) ;
+    position: absolute;
+    top:60px;
+    left:0;
+
+
 }
 
 #banner .cont h1{ 
