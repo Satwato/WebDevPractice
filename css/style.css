@@ -90,26 +90,31 @@ a{
 }
 
 #banner .cont h1{ 
-    overflow: hidden;
+    /* overflow: hidden;
     border-right:.1em solid rgb(224, 125, 86);
     white-space: nowrap;
     margin: 0 auto; 
+     */
+    
     font-size: 60px;
     line-height: 1.7em;
-    animation: 
+    /* animation: 
         typing 3.5s steps(40, end) infinite,
-        blink-caret .75s step-end infinite;
+        blink-caret .75s step-end infinite; */
+}
+#banner .cont a{
+    color: #fff
 }
 
-@keyframes typing{
+/* @keyframes typing{
     from{width:0}       
     to{width:50%}
 }
 
 @keyframes blink-caret{
     from, to {border-color: transparent}
-    50%{border-color: rgb(224, 125, 86)}
-}
+    50%{border-color: rgb(224, 125, 86)} 
+}*/
 
 #banner .cont p{
     padding-bottom: 30px;
