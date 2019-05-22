@@ -91,7 +91,7 @@ a{
 
 #banner .cont h1{ 
     overflow: hidden;
-    border-right:.1em solid rgb(180, 0, 0);
+    border-right:.1em solid rgb(224, 125, 86);
     white-space: nowrap;
     margin: 0 auto; 
     font-size: 60px;
@@ -108,10 +108,12 @@ a{
 
 @keyframes blink-caret{
     from, to {border-color: transparent}
-    50%{border-color: rgb(180, 0, 0)}
+    50%{border-color: rgb(224, 125, 86)}
 }
 
 #banner .cont p{
     padding-bottom: 30px;
     text-align: center;
 }
+
+
