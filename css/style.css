@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 * {
     box-sizing: border-box;
     margin:0;
@@ -6,7 +8,7 @@
   
 
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
 
@@ -49,7 +51,7 @@ a{
     transition: .5s;
 }
 .primText{
-    color: rgb(236, 190, 122);
+    color: #000;
 }
 
 .btn{
@@ -57,18 +59,21 @@ a{
     font-size: 18px;
     text-shadow: none; 
     color: #fff;
-    background: rgb(236, 190, 122);
+    background: #000;
     padding: 13px 20px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 .btn:hover{
-    background: rgb(255, 118, 118);
+    color: #000 !important;
+    background: #fff;
     transition: .5s;
+    border: 1px solid black;
 }
 #banner{
-    background: url('../img/b.jpg') no-repeat center center/cover;
+    background-color: #fff;
+    /* background: url('../img/b.jpg') no-repeat center center/cover; */
     height:100vh;
-    color: #fff;
+    color: #000;
 }
 
 #banner .cont{
@@ -78,15 +83,17 @@ a{
     justify-content: center;
     align-items: center;
     height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight:Bold;
     padding: 0 2rem;
-    text-shadow: 2px 2px 9px rgb(49, 49, 49) ;
+    /* text-shadow: 2px 2px 9px rgb(49, 49, 49) ; */
     
-    position: absolute;
+    /* position: absolute;
     top:55px;
     left: 0;
     right: 0;
     bottom:0;
-    background-color: rgba(49, 8, 126, 0.3)
+    background-color: rgba(49, 8, 126, 0.3) */
 }
 
 #banner .cont h1{ 
@@ -95,7 +102,9 @@ a{
     white-space: nowrap;
     margin: 0 auto; 
      */
-    
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
     font-size: 60px;
     line-height: 1.7em;
     /* animation: 
