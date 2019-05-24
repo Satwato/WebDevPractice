@@ -53,7 +53,15 @@ a{
 .primText{
     color: #000;
 }
-
+#banner .btn{
+    display: inline-block;
+    font-size: 18px;
+    text-shadow: none; 
+    color: #fff;
+    background: #000;
+    padding: 13px 20px;
+    /* border-radius: 5px; */
+}
 
 #banner .btn:hover{
     color: #000 !important;
